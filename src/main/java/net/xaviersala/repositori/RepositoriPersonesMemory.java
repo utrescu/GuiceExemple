@@ -7,6 +7,9 @@ import java.util.List;
 import com.google.inject.Singleton;
 
 /**
+ * Només crea una sola instància de RepositoriPersonesMemory per
+ * tot el programa perquè està etiquetat amb @Singleton.
+ * 
  * Created by xavier on 29/05/17.
  */
 @Singleton
